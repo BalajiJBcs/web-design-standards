@@ -6,28 +6,14 @@
 @import 'lib/normalize';
 
 // Core -------------- //
-
-// Settings (Variables)
 @import 'core/variables';
-
-// Tools (Mixins)
-@import 'core/mixins/content-size';
-@import 'core/mixins/focus';
-@import 'core/mixins/font-smoothing';
-@import 'core/mixins/icon';
-@import 'core/mixins/media-query';
-@import 'core/mixins/screen-reader';
-@import 'core/mixins/sidenav';
-@import 'core/mixins/typography';
-@import 'core/mixins/unstyled-list';
-
-// Generic
 @import 'core/fonts';
 @import 'core/grid';
+@import 'core/utilities';
 @import 'core/base';
 
 // Elements -------------- //
-// Basic HTML elements
+// Styles basic HTML elements
 @import 'elements/buttons';
 @import 'elements/embed';
 @import 'elements/figure';
@@ -53,8 +39,3 @@
 @import 'components/section';
 @import 'components/sidenav';
 @import 'components/skipnav';
-
-// Utilities ------------ //
-@import 'utilities/color';
-@import 'utilities/space';
-@import 'utilities/typography';
